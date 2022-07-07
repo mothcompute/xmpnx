@@ -1,0 +1,3 @@
+based on https://github.com/libxmp/libxmp/commit/8e4a5e1509c40716344830c25303b1b4ac48ae85. removed all prowizard files and unused code mentioned in https://github.com/libxmp/libxmp/issues/387. works fine on aarch64 and x86_64 so presumably it is just fine. unfortunately due to the depackers it is still all gpl i think
+
+this massacre brought to you by mothcompute

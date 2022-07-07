@@ -1,0 +1,3 @@
+mkdir -p obj
+for i in `find src | grep '\.c$'`; do $CC -c $i -o obj/`basename $i | sed 's/c$/o/'` -I. -Isrc -Isrc/loaders -DLIBXMP_NO_PROWIZARD; done
+$CC -r obj/* -o libxmp.o
